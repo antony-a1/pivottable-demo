@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pivottable-demo:war exploded">
+    <output-path>$PROJECT_DIR$/target/zk-pivottable-demo-2.0.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pivottable-demo/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pivottable-demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.zkoss.zk:zul:5.0.11" />
+          <element id="library" level="project" name="Maven: org.zkoss.zk:zk:5.0.11" />
+          <element id="library" level="project" name="Maven: org.zkoss.common:zweb:5.0.11" />
+          <element id="library" level="project" name="Maven: org.zkoss.common:zcommon:5.0.11" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
+          <element id="library" level="project" name="Maven: org.zkoss.zkforge.el:zcommons-el:1.1.0" />
+          <element id="library" level="project" name="Maven: org.beanshell:bsh:2.0b4" />
+          <element id="library" level="project" name="Maven: org.zkoss.zk:zkplus:5.0.11" />
+          <element id="library" level="project" name="Maven: org.zkoss.theme:breeze:5.0.11" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.3.161" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

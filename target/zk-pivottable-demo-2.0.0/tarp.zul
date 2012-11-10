@@ -1,0 +1,11 @@
+<?page title="ZK Pivottable: TARP Transactions" ?>
+<?style src="/base.css" ?>
+<?component name="div" extends="div" vflex="min" hflex="1" ?>
+<zk>
+	<zscript><![CDATA[
+		import org.zkoss.pivot.demo.*;
+		import org.zkoss.pivot.demo.impl.*;
+		PivotModelFactory factory = new PersistentPivotModelFactory();
+	]]></zscript>
+	<include src="template.zul" factory="${factory}" />
+</zk>

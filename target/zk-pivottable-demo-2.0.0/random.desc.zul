@@ -1,0 +1,8 @@
+<zk>
+	<div class="footnote" style="padding: 5px">
+		* Random data set, consisting of 1,000,000 rows.
+	</div>
+	<div class="footnote" style="padding: 0 5px 5px 5px">
+		* This data set is made random but deterministic via a fixed java random seed.
+	</div>
+</zk>

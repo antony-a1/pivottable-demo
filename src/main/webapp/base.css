@@ -1,0 +1,28 @@
+.z-hlayout-inner {
+	vertical-align: top;
+}
+.predef {
+	margin: 3px;
+	border: 1px solid #888888;
+	padding: 2px;
+	text-align: center;
+	cursor: pointer;
+}
+.predef:hover {
+	border-color: #4F8700;
+	background-color: #BDF271;
+}
+.predef.index {
+	padding: 4px;
+}
+.highlight {
+	background-color: #EFFF64;
+}
+.important {
+	font-weight: bold;
+	color: #DD2222;
+}
+.footnote {
+	font-style: italic;
+	color: #222222;
+}

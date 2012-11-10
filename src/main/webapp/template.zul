@@ -1,0 +1,48 @@
+<zk>
+	<window apply="org.zkoss.pivot.demo.PivotDemoBaseController">
+		<hlayout>
+			<panel id="main" hflex="1" border="normal">
+				<caption label="Pivottable">
+					<toolbarbutton id="exportCsvBtn" label="Export CSV" />
+					<toolbarbutton id="exportXlsBtn" label="Export XLS" />
+					<toolbarbutton id="exportXlsxBtn" label="Export XLSX" />
+				</caption>
+				<panelchildren>
+					<vlayout spacing="0">
+						<pivottable id="pivot" hflex="1">
+							<div></div>
+							<div>Columns</div>
+							<div>Rows</div>
+						</pivottable>
+						<div id="descDiv" />
+					</vlayout>
+				</panelchildren>
+			</panel>
+			<panel id="field" title="Control" width="300px" border="normal">
+				<panelchildren>
+					<vlayout style="padding: 10px">
+						Predefined scenario:
+						<hlayout id="preDef" spacing="0" />
+						<div class="footnote" style="padding: 5px 0">(Drag fields among the areas below)</div>
+						<pivot-field-control id="pfc" height="300px" />
+						<hlayout hflex="1">
+							<checkbox id="autoUpdate" label="Auto Update" checked="true" />
+							<div hflex="1" />
+							<button id="updateBtn" label="Update" disabled="true" autodisable="+self" />
+						</hlayout>
+						<separator />
+						<checkbox id="colGrandTotal" label="Enable grand total for columns" />
+						<checkbox id="rowGrandTotal" label="Enable grand total for rows" />
+						<div>
+							<radiogroup id="dataOrient">
+								Data field orientation:
+								<radio id="colOrient" label="column" />
+								<radio id="rowOrient" label="row" />
+							</radiogroup>
+						</div>
+					</vlayout>
+				</panelchildren>
+			</panel>
+		</hlayout>
+	</window>
+</zk>

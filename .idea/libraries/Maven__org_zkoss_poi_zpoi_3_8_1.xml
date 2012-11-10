@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: org.zkoss.poi:zpoi:3.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib-ext/zpoi-3.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

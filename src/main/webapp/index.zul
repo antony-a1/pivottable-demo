@@ -1,0 +1,13 @@
+<?page title="ZK Pivottable" ?>
+<?style src="/base.css" ?>
+<zk>
+	<window mode="overlapped" shadow="false" position="center">
+		Choose from the following data sets:
+		<separator />
+		<div sclass="predef index" onClick='Executions.sendRedirect("airline.zul")'>Airline Agency Sales</div>
+		<separator />
+		<div sclass="predef index" onClick='Executions.sendRedirect("tarp.zul")'>TARP Transactions</div>
+		<separator />
+		<div sclass="predef index" onClick='Executions.sendRedirect("random.zul")'>Random Large Data</div>
+	</window>
+</zk>
